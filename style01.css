@@ -1,0 +1,98 @@
+body{
+    background-color:white;
+}
+.head{
+    font-size: x-large;
+    float:left;
+    width: 50%;
+    height: 50%;
+    text-decoration:none;
+    text-align: center;
+}
+input.boxx{
+    border: 0;
+    display: block;
+    margin: 20px;
+    text-align: center;
+    border: 2px solid black;
+    padding:14px 10px;
+    width: 200px;
+    outline: none;
+    background:none;
+    border-radius: 25px;
+    transition: 0.250s;
+    cursor: pointer;
+    font-size: 20Px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+input.boxx[type="button"]:hover{
+    background: blue;
+}
+input.box{
+    border: 0;
+    display: block;
+    margin: 20px;
+    text-align: center;
+    border: 2px solid black;
+    padding:14px 10px;
+    width: 200px;
+    outline: none;
+    color: black;
+    border-radius: 25px;
+    transition: 0.250s;
+    cursor: pointer;
+    font-size: 20Px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    float:right;
+}
+input.box[type="button"]:hover{
+background-color:blue;
+}
+input.boss{
+    border: 0;
+    display: block;
+    margin: 20px;
+    text-align: center;
+    border: 2px solid black;
+    padding:14px 10px;
+    width: 200px;
+    outline: none;
+    color:black;
+    border-radius: 25px;
+    transition: 0.250s;
+    cursor: pointer;
+    font-size: 20Px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    float:right;
+    text-align: center;
+}
+input.boss[type="button"]:hover{
+background-color:blue;
+}
+p{
+    color:black;
+    font-size: 20px;
+    font-weight: 100px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.foot{
+    font-size: x-large;
+    float:left;
+    width: 50%;
+    height: 50%;
+    text-decoration: none;
+    text-align: center;
+}
+a {
+    line-height: 1em;
+    display: inline-block;
+    text-decoration: none;
+    padding: 1Px;
+    margin: 2px;
+    color: black;
+    font-size: xx-large;
+}
+div.d{
+    position:absolute;
+    left:0;
+}
